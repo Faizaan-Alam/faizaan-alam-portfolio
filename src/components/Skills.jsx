@@ -14,7 +14,7 @@ export default function Skills() {
 
         <div className="mt-12 grid gap-8 lg:grid-cols-2">
           {skillGroups.map((group) => (
-            <section key={group.id} className="border border-base-300 p-6">
+            <section key={group.id} className="card-hover border border-base-300 bg-base-100 p-6">
               <h3 className="font-display text-2xl">{group.title}</h3>
               <ul className="mt-4 flex flex-wrap gap-2">
                 {group.items.map((item) => (

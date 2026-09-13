@@ -18,7 +18,7 @@ export default function About() {
 
           <dl className="mt-8 grid gap-4 sm:grid-cols-2">
             {personal.facts.map((fact) => (
-              <div key={fact.label} className="border border-base-300 p-4">
+              <div key={fact.label} className="card-hover border border-base-300 bg-base-100 p-4">
                 <dt className="font-mono-ui text-[11px] tracking-[0.18em] uppercase opacity-50">
                   {fact.label}
                 </dt>

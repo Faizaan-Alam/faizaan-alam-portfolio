@@ -11,11 +11,11 @@ export default function Achievements() {
           <h2 className="font-display mt-3 text-4xl tracking-tight">A short record.</h2>
         </header>
 
-        <ul className="mt-10 divide-y divide-base-300 border-y border-base-300">
+        <ul className="mt-10 grid gap-4">
           {achievements.map((item) => (
             <li
               key={item.title}
-              className="grid gap-2 py-5 sm:grid-cols-[140px_1fr_auto] sm:items-baseline"
+              className="card-hover grid gap-2 border border-base-300 bg-base-100 px-5 py-5 sm:grid-cols-[140px_1fr_auto] sm:items-baseline"
             >
               <p className="font-mono-ui text-[11px] tracking-[0.16em] uppercase opacity-50">
                 {item.kind}

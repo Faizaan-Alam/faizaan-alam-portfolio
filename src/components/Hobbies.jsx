@@ -12,11 +12,11 @@ export default function Hobbies() {
           <p className="mt-3 text-base-content/70">{hobbiesIntro}</p>
         </header>
 
-        <div className="mt-12 grid gap-0 sm:grid-cols-2">
-          {hobbies.map((hobby, index) => (
+        <div className="mt-12 grid gap-4 sm:grid-cols-2">
+          {hobbies.map((hobby) => (
             <article
               key={hobby.id}
-              className={`border-base-300 p-6 ${index % 2 === 0 ? "sm:border-r" : ""} border-t`}
+              className="card-hover border border-base-300 bg-base-100 p-6"
             >
               <p className="font-mono-ui text-[11px] tracking-[0.18em] uppercase opacity-50">
                 {hobby.kicker}

@@ -15,7 +15,7 @@ export default function Experience() {
           {experience.map((job) => (
             <li
               key={`${job.org}-${job.role}`}
-              className="grid gap-4 border-t border-base-300 py-8 md:grid-cols-[200px_1fr]"
+              className="card-hover mt-4 grid gap-4 border border-base-300 bg-base-100 p-6 md:grid-cols-[200px_1fr]"
             >
               <div>
                 <p className="font-mono-ui text-xs tracking-[0.16em] uppercase opacity-60">
@@ -51,7 +51,10 @@ export default function Experience() {
         <h3 className="font-display mt-8 text-3xl tracking-tight">Positions of responsibility</h3>
         <div className="mt-6 grid gap-4 md:grid-cols-2">
           {leadership.map((item) => (
-            <article key={`${item.org}-${item.role}`} className="border border-base-300 p-5">
+            <article
+              key={`${item.org}-${item.role}`}
+              className="card-hover border border-base-300 bg-base-100 p-5"
+            >
               <p className="font-mono-ui text-[11px] tracking-[0.16em] uppercase opacity-50">
                 {item.duration || "Campus"}
               </p>

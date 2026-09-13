@@ -85,7 +85,7 @@ export default function Contact() {
 
         <div className="mt-10 grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
           <form
-            className="relative border border-base-300 p-6 sm:p-8"
+            className="card-hover relative border border-base-300 bg-base-100 p-6 sm:p-8"
             onSubmit={onSubmit}
             noValidate={false}
           >
@@ -188,7 +188,7 @@ export default function Contact() {
 
           <ul className="grid content-start gap-4">
             {links.map((item) => (
-              <li key={item.label} className="border border-base-300 p-5">
+              <li key={item.label} className="card-hover border border-base-300 bg-base-100 p-5">
                 <p className="font-mono-ui text-[11px] tracking-[0.18em] uppercase opacity-50">
                   {item.label}
                 </p>

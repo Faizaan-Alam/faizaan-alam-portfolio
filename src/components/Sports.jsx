@@ -20,7 +20,7 @@ export default function Sports() {
             {sports.medals.map((medal) => (
               <li
                 key={`${medal.place}-${medal.event}`}
-                className="border border-neutral-content/20 p-6"
+                className="card-hover border border-neutral-content/20 p-6"
               >
                 <p className="font-display text-5xl tracking-tight">{medal.place}</p>
                 <p className="font-mono-ui mt-3 text-xs tracking-[0.18em] uppercase opacity-70">

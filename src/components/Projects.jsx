@@ -5,7 +5,7 @@ function ProjectCard({ project, index }) {
   const number = String(index + 1).padStart(2, "0")
 
   return (
-    <article className="project-card flex h-full flex-col border border-base-300 bg-base-100">
+    <article className="card-hover flex h-full flex-col border border-base-300 bg-base-100">
       <div className="flex items-end justify-between border-b border-base-300 px-5 py-4">
         <p className="font-mono-ui text-xs tracking-[0.2em] uppercase opacity-50">{number}</p>
         <p className="font-mono-ui text-[11px] tracking-[0.16em] uppercase opacity-60">
