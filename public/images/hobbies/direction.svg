@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1612"/>
+  <rect x="24" y="24" width="752" height="452" fill="none" stroke="#c9bfae" stroke-width="2"/>
+  <text x="400" y="230" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#f3eee4">Direction</text>
+  <text x="400" y="270" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#c9bfae">Replace with public/images/hobbies/direction.webp</text>
+</svg>
