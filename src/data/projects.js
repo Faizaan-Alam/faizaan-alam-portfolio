@@ -124,19 +124,6 @@ export const projects = [
     image: "/images/projects/talksy.svg",
   },
   {
-    id: "wallet",
-    title: "Web-based wallet",
-    tag: "Web3",
-    featured: false,
-    description:
-      "Browser wallet that creates Ethereum and Solana accounts from a secret recovery phrase.",
-    highlights: [],
-    technologies: ["React", "JavaScript", "Ethereum", "Solana"],
-    github: "https://github.com/Faizaan-Alam/web-based-wallet",
-    live: "https://web-based-wallet-sigma.vercel.app",
-    image: "/images/projects/wallet.svg",
-  },
-  {
     id: "type-fighter",
     title: "Type Fighter",
     tag: "Game",
@@ -187,5 +174,18 @@ export const projects = [
     github: "https://github.com/Faizaan-Alam/job-portal-app",
     live: "",
     image: "/images/projects/job-portal.svg",
+  },
+  {
+    id: "wallet",
+    title: "Web-based wallet",
+    tag: "Web3",
+    featured: false,
+    description:
+      "Browser wallet that creates Ethereum and Solana accounts from a secret recovery phrase.",
+    highlights: [],
+    technologies: ["React", "JavaScript", "Ethereum", "Solana"],
+    github: "https://github.com/Faizaan-Alam/web-based-wallet",
+    live: "https://web-based-wallet-sigma.vercel.app",
+    image: "/images/projects/wallet.svg",
   },
 ]
