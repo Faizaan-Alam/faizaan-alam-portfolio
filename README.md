@@ -28,6 +28,7 @@ npm run preview
 | What you want to change | File |
 | --- | --- |
 | Name, bio, email, phone, GitHub, LinkedIn, photo path | `src/data/personal.js` |
+| Contact form destination (uses `email`) | `src/data/personal.js` (`email` and `contactForm`) |
 | Skills | `src/data/skills.js` |
 | Internships and campus roles | `src/data/experience.js` |
 | Projects (add / remove / live URL) | `src/data/projects.js` |
@@ -84,6 +85,14 @@ The site currently enables **20** built-in DaisyUI themes. The chosen theme is s
 
 Do not use DaisyUI's `glass` class. This site is intentionally not glassmorphism.
 
+### Contact form
+
+The Contact section posts to [FormSubmit](https://formsubmit.co) and delivers the message to `personal.email` (`faizaanalam.connect@gmail.com`).
+
+There is no backend and no API key. The first real submission sends **you** a confirmation email from FormSubmit. Open that mail and click the confirm link. After that, every later message arrives in your inbox, and you can reply to the visitor’s address.
+
+If you change your email, edit `email` in `src/data/personal.js`.
+
 ## Deploy
 
 ### Vercel (simplest, matches your other sites)
@@ -135,6 +144,6 @@ git push -u origin main
 - React 19 and Vite (JavaScript)
 - Tailwind CSS 4
 - DaisyUI 5 (20 themes)
-- No backend, no environment variables required
+- FormSubmit for the contact form (no backend; first message needs an inbox confirmation)
 
 The site is a static build. You can host it on GitHub Pages, Vercel, Netlify, or a phone/server that can serve the `dist/` folder.

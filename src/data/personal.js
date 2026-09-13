@@ -28,6 +28,11 @@ export const personal = {
   email: "faizaanalam.connect@gmail.com",
   phone: "+91 93199 55443",
   phoneHref: "tel:+919319955443",
+  contactForm: {
+    subject: "New message from faizaan-alam-portfolio",
+    success: "Sent. I will reply to the email you entered.",
+    error: "The message did not send. Email me directly instead.",
+  },
   location: "New Delhi, India",
   availability:
     "Available for Software Engineer / Full Stack intern roles. Open to remote and on-site.",
