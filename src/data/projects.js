@@ -73,7 +73,7 @@ export const projects = [
       "ethers.js",
     ],
     github: "https://github.com/Faizaan-Alam/anubandh-sih26125",
-    live: "",
+    live: "https://anubandh-web.vercel.app",
     image: "/images/projects/anubandh.svg",
   },
   {
