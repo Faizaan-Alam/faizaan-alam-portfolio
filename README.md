@@ -81,7 +81,7 @@ Hobby and project files in `public/images/` are labelled placeholders. They are 
 1. Add the theme id to the list in `src/data/themes.js`.
 2. Add the same id inside the `@plugin "daisyui" { themes: ... }` block in `src/index.css`.
 
-The site currently enables **20** built-in DaisyUI themes. The chosen theme is stored in `localStorage` under `faizaan-theme`.
+The site currently enables **20** built-in DaisyUI themes. Default is **black**. The chosen theme is stored in `localStorage` under `faizaan-theme-v2`.
 
 Do not use DaisyUI's `glass` class. This site is intentionally not glassmorphism.
 

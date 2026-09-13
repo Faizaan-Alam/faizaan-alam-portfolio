@@ -8,13 +8,13 @@
  * Theme names must match DaisyUI's built-in theme ids.
  * https://daisyui.com/docs/themes/
  */
-export const THEME_STORAGE_KEY = "faizaan-theme"
+export const THEME_STORAGE_KEY = "faizaan-theme-v2"
 
-export const defaultTheme = "silk"
+export const defaultTheme = "black"
 
 export const themes = [
+  { id: "black", label: "Black", group: "dark" },
   { id: "winter", label: "Winter", group: "light" },
-  { id: "light", label: "Light", group: "light" },
   { id: "cupcake", label: "Cupcake", group: "light" },
   { id: "bumblebee", label: "Bumblebee", group: "light" },
   { id: "emerald", label: "Emerald", group: "light" },

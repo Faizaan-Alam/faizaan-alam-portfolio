@@ -1,10 +1,9 @@
 @import "tailwindcss";
 @plugin "daisyui" {
   themes:
-    silk --default,
+    black --default,
     night --prefersdark,
     winter,
-    light,
     cupcake,
     bumblebee,
     emerald,
@@ -13,6 +12,7 @@
     pastel,
     garden,
     retro,
+    silk,
     nord,
     dark,
     forest,

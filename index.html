@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="black">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -41,9 +41,9 @@
     <script>
       (function () {
         try {
-          var key = "faizaan-theme"
-          var saved = localStorage.getItem(key)
-          if (saved) document.documentElement.setAttribute("data-theme", saved)
+          var key = "faizaan-theme-v2"
+          var saved = localStorage.getItem(key) || "black"
+          document.documentElement.setAttribute("data-theme", saved)
         } catch (e) {}
       })()
     </script>
