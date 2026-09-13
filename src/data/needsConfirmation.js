@@ -1,5 +1,5 @@
 /**
- * Needs confirmation — NOT shown on the public website.
+ * Needs confirmation: NOT shown on the public website.
  *
  * Things found during research that were incomplete, conflicting,
  * or not verified. Edit the live data files only after you confirm.

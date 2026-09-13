@@ -77,7 +77,7 @@ export default function Contact() {
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-8">
         <header className="max-w-2xl">
           <p className="font-mono-ui text-xs tracking-[0.22em] uppercase opacity-60">
-            08 — Contact
+            08 · Contact
           </p>
           <h2 className="font-display mt-3 text-4xl tracking-tight">Write to me.</h2>
           <p className="mt-3 text-base-content/70">{personal.availability}</p>

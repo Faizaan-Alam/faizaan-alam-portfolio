@@ -5,7 +5,7 @@
  * public/images/hobbies/ to use a real photograph.
  */
 export const hobbiesIntro =
-  "The technical work is one room. This is the other — writing, performance, and the stories I want to make."
+  "The technical work is one room. This is the other: writing, performance, and the stories I want to make."
 
 export const hobbies = [
   {
@@ -29,7 +29,7 @@ export const hobbies = [
     title: "Books & stories",
     kicker: "Reading",
     description:
-      "I read for structure as much as for pleasure — how a story is built, how a line lands, how a scene turns.",
+      "I read for structure as much as for pleasure: how a story is built, how a line lands, how a scene turns.",
     image: "/images/hobbies/books.svg",
   },
   {
@@ -45,7 +45,7 @@ export const hobbies = [
     title: "Direction",
     kicker: "Making",
     description:
-      "I am interested in directing and in putting visual stories together — framing, pacing, and the cut.",
+      "I am interested in directing and in putting visual stories together: framing, pacing, and the cut.",
     image: "/images/hobbies/direction.svg",
   },
   {
@@ -59,7 +59,7 @@ export const hobbies = [
     id: "dance",
     title: "Dance",
     kicker: "Performance",
-    description: "I dance. Performance — on a stage or a floor — is part of how I like to spend time.",
+    description: "I dance. Performance, on a stage or a floor, is part of how I like to spend time.",
     image: "/images/hobbies/dance.svg",
   },
   {

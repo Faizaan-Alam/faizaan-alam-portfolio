@@ -1,5 +1,5 @@
 /**
- * Personal information — edit this file to change name, bio, contact, and education.
+ * Personal information: edit this file to change name, bio, contact, and education.
  *
  * Photo: drop a new file at public/images/profile/faizaan.webp
  *        (keep the same filename, then refresh).
@@ -15,7 +15,7 @@ export const personal = {
     "I build full-stack web apps, work with AI/ML systems, and still make time for poetry, films, and the 100m.",
   about: [
     "I am a B.Tech Computer Science student specializing in AI/ML at Guru Gobind Singh Indraprastha University, based at Bharati Vidyapeeth's College of Engineering in New Delhi.",
-    "Most of my work sits in the MERN stack — React on the front, Node and Express behind it — with Python when the problem is a model, a pipeline, or an evaluation. I have also been learning Web3 by shipping things: a browser wallet for Ethereum and Solana, and ANUBANDH, a permissioned identity and asset platform for Smart India Hackathon.",
+    "Most of my work sits in the MERN stack: React on the front, Node and Express behind it, with Python when the problem is a model, a pipeline, or an evaluation. I have also been learning Web3 by shipping things: a browser wallet for Ethereum and Solana, and ANUBANDH, a permissioned identity and asset platform for Smart India Hackathon.",
     "I do not only write code. I am Chief Editor of Pratibimb, the IEEE student magazine, and I built its public site so editors can swap issues without touching React. I am President of Qaafila, the college literary society, and I built that house too. Poetry and shayari are the through-line.",
     "On the track I sprint the 100m for the college athletics team. The same discipline shows up in how I like to ship: clear structure, honest scope, and work that can be maintained by someone else later.",
   ],

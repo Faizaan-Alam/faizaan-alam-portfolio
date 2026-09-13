@@ -6,7 +6,7 @@ export default function Experience() {
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-8">
         <header className="max-w-2xl">
           <p className="font-mono-ui text-xs tracking-[0.22em] uppercase opacity-60">
-            03 — Experience
+            03 · Experience
           </p>
           <h2 className="font-display mt-3 text-4xl tracking-tight">Internships and the campus.</h2>
         </header>

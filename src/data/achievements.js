@@ -1,5 +1,5 @@
 /**
- * Achievements — keep this shorter than Experience.
+ * Achievements: keep this shorter than Experience.
  * Sports medals live primarily in sports.js; they are summarised here.
  */
 export const achievements = [
@@ -18,7 +18,7 @@ export const achievements = [
   {
     title: "President, Qaafila",
     detail: "Literary society of BVP. Workshop “Main Shayar Toh Nahi”; official site.",
-    year: "2026–27",
+    year: "2026-27",
     kind: "Leadership",
   },
   {

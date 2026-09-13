@@ -69,7 +69,7 @@ export default function Projects() {
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-8">
         <header className="max-w-2xl">
           <p className="font-mono-ui text-xs tracking-[0.22em] uppercase opacity-60">
-            04 — Projects
+            04 · Projects
           </p>
           <h2 className="font-display mt-3 text-4xl tracking-tight">Things I have shipped.</h2>
           <p className="mt-3 text-base-content/70">

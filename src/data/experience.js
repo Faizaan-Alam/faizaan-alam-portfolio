@@ -1,7 +1,7 @@
 /**
  * Experience, internships, and campus positions.
  *
- * Dates on the resume are written as "Present" / "Previous" — those
+ * Dates on the resume are written as "Present" / "Previous": those
  * strings are kept as-is. Add month/year here when you have them.
  */
 export const experience = [
@@ -58,7 +58,7 @@ export const leadership = [
   {
     role: "President",
     org: "Qaafila Literature Society, BVP",
-    duration: "2026–27 tenure",
+    duration: "2026-27 tenure",
     points: [
       "Conducted the poetry workshop “Main Shayar Toh Nahi”.",
       "Organized literary events, including an ideathon.",
@@ -67,7 +67,7 @@ export const leadership = [
   },
   {
     role: "Chief Editor",
-    org: "Pratibimb 4.0 — IEEE BVCOE technical magazine",
+    org: "Pratibimb 4.0, IEEE BVCOE technical magazine",
     duration: null,
     points: [
       "Edit the annual magazine of the IEEE Student Branch at BVCOE.",
@@ -76,7 +76,7 @@ export const leadership = [
   },
   {
     role: "Content Writer",
-    org: "Saransh — CSE department magazine",
+    org: "Saransh: CSE department magazine",
     duration: null,
     points: ["Write for the department magazine."],
   },

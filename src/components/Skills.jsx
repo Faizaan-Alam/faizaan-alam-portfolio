@@ -5,7 +5,7 @@ export default function Skills() {
     <section id="skills" className="border-b border-base-300">
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-8">
         <header className="max-w-2xl">
-          <p className="font-mono-ui text-xs tracking-[0.22em] uppercase opacity-60">02 — Skills</p>
+          <p className="font-mono-ui text-xs tracking-[0.22em] uppercase opacity-60">02 · Skills</p>
           <h2 className="font-display mt-3 text-4xl tracking-tight">What I actually use.</h2>
           <p className="mt-3 text-base-content/70">
             Grouped by work, not by a percentage bar. Each tag is something on the resume or in a public repository.

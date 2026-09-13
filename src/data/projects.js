@@ -3,7 +3,7 @@
  *
  * To add a project: copy an object, fill the fields, save.
  * Leave github or live as "" to hide that button.
- * image is optional — a numbered editorial cover is used if empty.
+ * image is optional: a numbered editorial cover is used if empty.
  *
  * Only verified links are included. Talksy has no public GitHub repo.
  */
@@ -82,7 +82,7 @@ export const projects = [
     tag: "Literary society",
     featured: true,
     description:
-      "Official website of Qaafila, BVP's literary society. Built during the 2026–27 tenure as President — team, legacy, evenings, and write-ups in one place.",
+      "Official website of Qaafila, BVP's literary society. Built during the 2026-27 tenure as President: team, legacy, evenings, and write-ups in one place.",
     highlights: [
       "Live site used by the society.",
       "Copy and portraits are data-driven for future tenures.",

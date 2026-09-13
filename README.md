@@ -1,4 +1,4 @@
-# Faizaan Alam — personal site
+# Faizaan Alam: personal site
 
 Resume and portfolio site for **Faizaan Alam**.
 

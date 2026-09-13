@@ -7,7 +7,7 @@ export default function Sports() {
         <div className="mx-auto max-w-6xl px-4 py-20 sm:px-8">
           <header className="max-w-2xl">
             <p className="font-mono-ui text-xs tracking-[0.22em] uppercase opacity-60">
-              06 — Sports
+              06 · Sports
             </p>
             <h2 className="font-display mt-3 text-4xl tracking-tight">{sports.title}</h2>
             <p className="mt-3 text-neutral-content/75">{sports.intro}</p>

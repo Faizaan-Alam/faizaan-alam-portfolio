@@ -5,7 +5,7 @@ export default function About() {
     <section id="about" className="border-b border-base-300">
       <div className="mx-auto grid max-w-6xl gap-12 px-4 py-20 sm:px-8 lg:grid-cols-[0.9fr_1.1fr]">
         <header>
-          <p className="font-mono-ui text-xs tracking-[0.22em] uppercase opacity-60">01 — About</p>
+          <p className="font-mono-ui text-xs tracking-[0.22em] uppercase opacity-60">01 · About</p>
           <h2 className="font-display mt-3 text-4xl tracking-tight">Not only the editor.</h2>
         </header>
 

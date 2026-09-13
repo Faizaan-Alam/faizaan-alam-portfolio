@@ -1,5 +1,5 @@
 /**
- * Skills — grouped by category.
+ * Skills: grouped by category.
  *
  * Do not add percentage bars here. Each skill can list where it was used
  * so the site stays honest. Edit this file to add or remove a skill.
